@@ -111,3 +111,23 @@
 .wp-logo{
     font-size: 35px !important;
 }
+
+@media (max-width: 800px){
+    .subtitulo-denuncia{
+        margin-top: 15px;;
+    }
+}
+
+/* Testimonios */
+.t-green{
+    color: rgb(138, 199, 46);
+}
+
+.testimonios{
+    background-color: rgb(254, 255, 232);
+}
+
+/* Silvestre Kids */
+.img-sk{
+    width: 250px;
+}
