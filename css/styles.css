@@ -1,4 +1,113 @@
+/* Logo */
 .logo-junglamigos{
     width: 220px;
 }
 
+/* Introduccion */
+.tucan{
+    width: 200px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+
+@media (max-width:500px){
+    .tucan{
+        width: 180px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:400px){
+    .tucan{
+        width: 170px;
+        margin-left: 70px;
+    }
+}
+
+.introduccion{
+    background-color: rgb(138, 199, 46);
+}
+
+.parrafo-justificado{
+    text-align: justify;
+}
+.t-white{
+    color: white;
+}
+
+/* Noticias */
+.t-black{
+    color: black;
+}
+.noticias{
+    background-color: rgb(241, 201, 90);
+}
+.enlace{
+    color: rgb(122, 62, 6);
+    text-decoration: underline;
+}
+.img-noticia{
+    width: 310px;
+    cursor: pointer;
+}
+
+@font-face{
+    font-family: Hatsch;
+    src: url(../font/HatschSans.otf)
+}
+
+.subtitulo{
+    font-family: Hatsch;
+    color: rgb(122, 62, 6);
+    font-size: 40px;
+}
+
+@media (max-width: 400px){
+    .subtitulo{
+        font-size: 34px;
+    }
+}
+
+/* Denuncias */
+.denuncias{
+    background-color: rgb(0, 0, 0);
+}
+
+.t-red{
+    color: red
+}
+
+
+.mono{
+    width:600px;
+}
+
+@media (max-width: 1000px){
+    .mono{
+        width:500px;
+    }
+}
+
+@media (max-width: 400px){
+    .mono{
+        width:400px;
+    }
+}
+
+.qr-denuncia{
+    width: 170px;
+}
+
+.wp-denuncia{
+    color: rgb(138, 199, 46);
+    text-decoration: none;
+    width: 40px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+
+.wp-logo{
+    font-size: 35px !important;
+}
