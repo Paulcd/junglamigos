@@ -3,6 +3,37 @@
     width: 220px;
 }
 
+/* Slider */
+@media(max-width:1200px){
+    .carousel-inner{
+        margin-top: 65px;;
+    }
+}
+
+@media(max-width:970px){
+    .carousel-inner{
+        margin-top: 65px;;
+    }
+}
+
+@media(max-width:700px){
+    .carousel-inner{
+        margin-top: 65px;;
+    }
+}
+
+@media(max-width:500px){
+    .carousel-inner{
+        margin-top: 65px;;
+    }
+}
+
+@media(max-width:400px){
+    .carousel-inner{
+        margin-top: 85px;;
+    }
+}
+
 /* Introduccion */
 .tucan{
     width: 200px;
@@ -80,7 +111,7 @@
 
 
 .mono{
-    width:600px;
+    width:500px;
 }
 
 @media (max-width: 1000px){
@@ -89,9 +120,29 @@
     }
 }
 
+@media (max-width: 970px){
+    .mono{
+        width:750px;
+        margin-top: -10px;
+        margin-bottom: 20px;;
+    }
+    .denuncia{
+        margin-bottom: -10px;
+    }
+}
+
+@media (max-width: 750px){
+    .mono{
+        width:500px;
+    }
+}
+
 @media (max-width: 400px){
     .mono{
         width:400px;
+    }
+    .column2-denuncia{
+        margin-bottom: -15px;;
     }
 }
 
@@ -128,6 +179,64 @@
 }
 
 /* Silvestre Kids */
+.silvestre-kids{
+    background-color: rgb(31, 185, 0);
+}
+
 .img-sk{
     width: 250px;
+}
+
+.btn{
+    color: rgb(255, 253, 255) !important;
+    background-color: rgb(138, 199, 46) !important;
+    border: 1.5px solid rgb(0, 0, 0) !important;
+}
+
+.btn:hover {
+    color: rgb(255, 253, 255) !important;
+    background-color: rgb(64, 104, 4) !important;
+    border: 1.5px solid rgb(138, 199, 46) !important;
+}
+
+/* Suscribete */
+.suscribete{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.sub-suscribete{
+    text-align: center;
+}
+
+.par-suscribete{
+    text-align: center;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(46, 41, 41);
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 20px;
+}
+
+.tituloFooter{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;;
+}
+
+.botonRedes{
+    border-radius: 100% !important;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+
+.redes-sociales{
+    margin-top: -35px;
 }
