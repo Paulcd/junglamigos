@@ -15,45 +15,45 @@
 </head>
 <body>
 
-     <!-- Encabezado -->
-     <header>
-        <!-- Navbar -->
-       <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 fixed-top">
-           <div class="container-fluid">            
-               <a class="navbar-brand" href="#">
-                   <img class="navbar-brand logo-junglamigos" src="img/logo-ja-horizontal.jpg" alt="logo-junglamigos">
-               </a>
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                       <li class="nav-item">
-                           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                       </li>
-                       <li class="nav-item">
-                           <a class="nav-link" href="quienes-somos.html">¿Quienes Somos?</a>
-                       </li>  
-                       <li class="nav-item">
-                           <a class="nav-link" href="#">Adoptar</a>
-                       </li>     
-                       <li class="nav-item">
-                           <a class="nav-link" href="#">Servicios</a>
-                       </li>  
-                       <li class="nav-item">
-                           <a class="nav-link" href="#">Donaciones</a>
-                       </li>  
-                       <li class="nav-item">
-                           <a class="nav-link" href="#">Silvestre kids</a>
-                       </li>  
-                       <li class="nav-item">
-                           <a class="nav-link" href="#">Suscribete</a>
-                       </li>                 
-                   </ul>
-               </div>
-           </div>
-       </nav>
-   </header>
+    <!-- Encabezado -->
+    <header>
+         <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 fixed-top">
+            <div class="container-fluid">            
+                <a class="navbar-brand" href="#">
+                    <img class="navbar-brand logo-junglamigos" src="img/logo-ja-horizontal.jpg" alt="logo-junglamigos">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienes-somos.html">¿Quienes Somos?</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="adoptar.html">Adoptar</a>
+                        </li>     
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="donaciones.html">Donaciones</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="silvestre-kids.html">Silvestre kids</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="suscribete.html">Suscribete</a>
+                        </li>                 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
    <!-- Banner de imagenes -->
    <section id="new-carousel" class="carousel slide" >
@@ -66,6 +66,52 @@
             </div>
         </div>
     </section>
+
+    <!-- Adoptar -->
+    <section class="noticias">
+        <div class="container text-center pt-5 pb-3">
+            <!-- <h2 class="subtitulo text-center py-2">NOTICIAS</h2> -->
+            <div class="row py-3">
+                <div class="col px-4">                                                            
+                    <h4>¿Por que adoptar?</h4>
+                    <p class="parrafo-justificado t-black">La adopción pudiera estar dentro de servicios con un apartado "estoy buscando un hogar". Este apartado esta abierto a los usuarios que tienen mascotas para poner en adopción.</p>
+                </div>
+                <div class="col px-4">                                        
+                    <a href="https://elcomercio.pe/mundo/eeuu/traficante-admite-haber-ingresado-serpientes-y-lagartos-a-estados-unidos-en-sus-pantalones-jose-manuel-perez-trafico-de-animales-eeuu-rmmn-noticia/" target="_blank"><img class="img-noticia py-2" src="img/serpientes.JPG" /></a>                    
+                </div>
+                <div class="col px-4">                                        
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input for="nombre" type="text" class="form-control" data-sb-validations="required" id="nombre">
+                            <label name="nombre">Nombres y apellidos</label>
+                            <div class="invalid-feedback" data-sb-feedback="nombre:required">Nombre es obligatorio</div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input for="dni" type="text" class="form-control" data-sb-validations="required" id="dni">
+                            <label name="dni">DNI</label>
+                            <div class="invalid-feedback" data-sb-feedback="nombre:required">Nombre es obligatorio</div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input for="correo" type="email" class="form-control" data-sb-validations="required" id="correo">
+                            <label name="correo">Correo</label>
+                            <div class="invalid-feedback" data-sb-feedback="correo:required">Correo es obligatorio</div>
+                        </div> 
+
+                        <div class="form-floating mb-3">
+                            <textarea for="mensaje" type="text" class="form-control" data-sb-validations="required" id="mensaje" style="height: 130px"></textarea>
+                            <label name="mensaje">Mensaje</label>
+                            <div class="invalid-feedback" data-sb-feedback="mensaje:required">¿Por que deseas adoptar?</div>
+                        </div>
+
+                        <button type="button" class="btn btn-warning">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     
 
